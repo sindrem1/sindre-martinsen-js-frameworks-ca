@@ -1,0 +1,127 @@
+.search {
+    text-align: center;
+  }
+  
+  .searchfield {
+    position: relative;
+    margin: auto;
+    width: 100%;
+    max-width: 280px;
+    height: 30px;
+  }
+
+  .results {
+    text-align: center;
+  }
+
+  
+  .form {
+    text-align: center;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .gamecolumn {
+    float: left;
+    text-align: center;
+    width: 20%;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    color: white;
+    position: relative;
+    margin: auto;
+    height: 500px;
+    margin-top: 20px;
+    background-color: #254E70;
+    text-align: center;
+  }
+  
+  .card button {
+    position: absolute;
+    bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    width: 80%;
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: black;
+    background-color: #FFB30F;
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+  
+  .cardimg {
+    width: 100%;
+    height: 200px;
+  }
+  .cardimg:hover {
+    filter:opacity(80%);
+  }
+  
+  .detailcolumn {
+    background-color: #254E70;
+    height: 100%;
+    
+  }
+  
+  .detailcard {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    color: white;
+    margin: auto;
+    height: 100%;
+    background-color: #254E70;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .bigimg {
+    margin-top: 20px;
+    width: 50%;
+  }
+  
+  .desc {
+    width: 60%;
+      margin: 0 auto;
+  }
+
+  .weblink {
+    text-decoration: none;
+    background-color: #FFB30F;
+    color: #333333;
+    padding: 2px 6px 2px 6px;
+    }
+    
+
+
+@media screen and (max-width: 1000px) {
+
+    .gamecolumn {
+     width: 50%;
+     margin-top: 20px;
+   }
+   
+   }
+   
+   
+   @media screen and (max-width: 600px) {
+     .gamecolumn {
+        width: 100%;
+        
+     }
+   
+   }

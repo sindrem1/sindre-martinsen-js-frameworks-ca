@@ -1,0 +1,53 @@
+.thanks {
+    display: none;
+    text-align: center;
+    color: green;
+  }
+
+  .error {
+    color: red;
+  }
+  
+  .contact {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .contactfield {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 10px;
+  }
+
+  .contactfieldtxt {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 10px;
+    resize: vertical
+  }
+  
+  .submit {
+    margin-top: 20px;
+    border: none;
+    outline: 0;
+    height: 30px;
+    color: black;
+    background-color: #FFB30F;
+    text-align: center;
+    cursor: pointer;
+    width: 30%;
+    font-size: 18px;
+    }
+    
+    .submit:hover {
+      background-color: #9c7011;
+    }

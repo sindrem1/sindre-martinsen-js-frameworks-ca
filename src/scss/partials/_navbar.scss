@@ -1,0 +1,19 @@
+.navbar{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    background-color: #254E70;
+  
+    
+  }
+  .navbar a{
+    text-decoration: none;
+    color: #FFF;
+    display: block;
+    padding: 15px;
+    margin: 0 5px; 
+  }
+  .navbar a:hover {
+    background: rgb(83, 83, 83);
+  }
